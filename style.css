@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #9acd32;
+}
+
+.inbox {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #000000;
+    background: #bada55;
+}
+
+.item input {
+    margin-right: 10px;
+}
+
+.item p {
+    align-items: flex-end;
+}
